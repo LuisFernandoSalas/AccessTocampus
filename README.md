@@ -52,6 +52,44 @@ Al pasarlo por el escáner restará 1 uso al código QR; por qué a ingresado al
 Hora de salida
 Nombre apellidos
 Especialidad, turno
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ACCESS TO CAMPUS
+
+Este es el manual de uso para el proyecto. Aquí daremos desde las URL básicas para el personal administrativo como para realizar la activación de el sistema para el ingreso de alumnos.
+
+ 
+URL
+La primera URL es para el personal administrativo Acceso (000webhostapp.com) donde tendremos un menú de acceso esto es para garantizar la integridad de los datos de el alumnado 
+
+Nota: esta interfaz no tiene una contraseña establecida ya que solo es una pre-visualización de lo que será realmente así que puede acceder con o sin contraseña
+
+La segunda URL es a la que tendrá acceso el alumnado que es donde podrá visualizar su entrada a esta URL no se puede acceder atra ves de un botón se tiene que acceder mediante la URL especifica que es esta Lector de QR (000webhostapp.com) 
+
+
+¿CÓMO SE USA?
+
+Archivo principal: Al usar el primer link Lo llevará a la pagina principal donde le pedirá una clave esta clave por ahora es irrelevante ya que Aun no tiene el archivo con la contraseña.
+
+Archivo de menú: En este menú encontraras tres botones los cuales son, nombrándolos de arriba hacia abajo; Insertar datos, Eliminar datos y Buscar alumno. Aquí podremos acceder a cualquiera de estas interfaces 
+
+o	Insertar datos: En esta interfaz podrás encontrar todo lo necesario para registrar a un alumno nuevo. Esta interfaz es muy intuitiva y fácil de usar cuanta con dos botones; el primero permite que después de haber llenado todos los campos puedas registrar al alumno. El segundo nos permite regresar al menú principal para escoger otra opción.
+
+o	Eliminar datos: En esta interfaz encontraras un menú desplegable donde podrás encontrar a todos los alumnos registrados, al seleccionar un alumno, podrás dar al botón de eliminar a cualquier alumno; al darle al botón de eliminar Saltara una alerta donde darás aceptar para continuar con la eliminación del usuario
+
+o	Buscar alumno: Aquí encontraras una tabla donde están todos los alumnos pero en la barrita superior podrás agregar la descripción de el alumno y los encontrara rápidamente.
+
+
+Actualizar datos: Al deslizarte hacia la izquierda podrás encontrar un botón donde te llevara otra interfaz donde ya tendrás listos todos los datos de el alumno para hacer modificaciones 
+
+
+
+Interfaz de los alumnos
+
+Para esto tendrás que acceder a el segundo link,  conecta el lector de códigos QR,  al pasar la credencial por le lector accederá a unos cuantos datos del 
+
 Foto
 
 Cuando se cierra el horario de clases 20:00hrs el servidor que genera y guarda los códigos QR empezará hacer los cambios para el día siguiente
