@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: hsl(0, 100%, 94%);
+    color: #333;
+    margin: 5%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #8B0000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+h1, h2, h3 {
+    color: #8B0000;
+}
+.ayuda{
+    color: #fff;
+    background-color: #8B0000;
+    text-align: center;
+    font-size: 4em;
+    margin: -5%;
+}
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+    overflow-x: auto; /* Agregado para scroll horizontal en la tabla */
+}
+
+select, input[type="password"], input[type="email"], input[type="file"] , input[type="number"]{
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="text"] {
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+img {
+    max-width: 30%;
+    height: auto;
+}
+button, input[type="submit"] , a{
+    background-color: #8B0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-wrap:nowrap;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #C70039;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.form2{
+clip-path: inset(100%);
+}
+/* Media Queries para Diseño Responsivo */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+tbody {
+    max-width: 100%;
+    overflow-x: auto; /* Agregado para scroll horizontal en la tabla */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+p{
+    font-size: 30px;
+}
+.imgLittle{
+    width: 10%;
+    height: auto;
+}
