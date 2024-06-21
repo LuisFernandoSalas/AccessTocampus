@@ -1,4 +1,0 @@
-function closeWin()
-{
-    window.close();
-}
