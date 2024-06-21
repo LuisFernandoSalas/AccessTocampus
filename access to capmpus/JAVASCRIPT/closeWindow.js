@@ -1,0 +1,4 @@
+function closeWin()
+{
+    window.close();
+}
