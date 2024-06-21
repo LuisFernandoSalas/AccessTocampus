@@ -96,3 +96,22 @@ Cuando se cierra el horario de clases 20:00hrs el servidor que genera y guarda l
 
 
 El codigo aun no esta completo para realizar tales acciones de el todo
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+¿CÓMO SE ESTRUCTURA UN CODIGO QR DE ACCESO?
+
+Para diseñar un codigo QR para acceder a el plantel lo aremos de la siguiente manera 
+
+QR ESTRUCTURA --> NOMBRE(S)APELLIDO.1APELLIDO.2SEMESTREGRUPOTURNOESPECIALIDADFECHA
+
+ejemplo --> LuisFernandoSalasCervantes4AMP20-06-24
+
+NOMBRES:  -->   En el ejemplo anterior podemos ver que los nombres son " Luis " y " Fernando " pero no encontramos ningun espacio entre los nombres
+APELLIDO.1 -->  En este caso el apellido 1 es " Salas "
+APELLIDO.2: --> En este caso seria " Cervantes "
+SEMESTRE:  -->  Seria el nunmero " 4 "
+GRUPO:     -->  Seria la letra " A "
+TURNO:     -->  Seria la letra " M "
+ESPECIALIDAD --> Donde encontrariamos la ultima letra " P "
+FEHCA -->  "20" -> es el dia "-" -> guion de separacion "06" -> representa el mes  "-" -> otor guion de separacion "24" -> que representa el año
