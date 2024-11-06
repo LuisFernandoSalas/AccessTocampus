@@ -29,5 +29,13 @@
     $confirm = $connection -> query($CreateTable);
     validation($confirm);
 
+    $CreateTableInstitutios = "CREATE TABLE dgeti_campus
+    (
+        Id_campus       INT(11) AUTO_INCREMENT PRIMARY KEY,
+        essential       VARCHAR(11) NOT NULL,
+        password_campus VARCHAR(50) NOT NULL
+    )
+    ";
+
     echo "<script>window.location.href='../../interfases/'</script>"
 ?>

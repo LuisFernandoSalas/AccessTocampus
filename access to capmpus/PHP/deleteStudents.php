@@ -2,13 +2,13 @@
     include'../PHPfunctions/Functions.php';
     include'../PHP/connections/connection.php';
 
-    if($_SERVER["REQUEST_METHOD"] == "POST")
+    if($_SERVER["REQUEST_METHOD"] == "GET")
         {
             //llamamos el nombre del estudiante
-            $stu_ID = $_POST["students"];
+            $tuitionStudent = $_GET["tuitions"];
 
             //ejecutamos la consulta que elimina al alumno
-            $sqlDelete = "DELETE FROM current_students WHERE Id_Student = '$stu_ID'";
+            $sqlDelete = "DELETE FROM current_students WHERE tuitions_Student = '$tuitionStudent'";
             
             $answer = $connection -> query($sqlDelete);
 

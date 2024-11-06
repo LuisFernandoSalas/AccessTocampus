@@ -103,3 +103,12 @@ p{
     width: 10%;
     height: auto;
 }
+.Leter
+{
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-transform:uppercase;
+}

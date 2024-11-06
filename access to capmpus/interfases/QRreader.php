@@ -10,10 +10,10 @@
 <body class="bodyfeo">
     <center>
     <h3 class="ayuda"> Lector de QR </h1>
-    <form id="form2" action="../PHP/AccessToCampus/QRpass.php" method="post">
+    <form class="form2" id="form2" action="../PHP/AccessToCampus/QRpass.php" method="post">
         <label for="QR">Código QR:</label>
         <input type="text" name="QR" id="QR">
-        <!-- class="form2" Linea que oculta en input:text-->
+        <!-- class="form2" Linea que oculta en input:text  => va en el <form>-->
     </form>
 
     <?php

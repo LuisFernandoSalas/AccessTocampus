@@ -27,11 +27,5 @@
             <input type="submit" value="Buscar alumno">
         </form>
     </section>
-    <!-- <section>
-        <form action="Update.php">
-            <input type="submit" value="Actualizar registro">
-        </form>
-    </section> -->
-    <!-- <a href="../PHP/connection.php"></a> -->
 </body>
 </html>
